@@ -1,6 +1,6 @@
 # Get Comments of one material
 
-Show comments of one material. The material is specified by id.
+Show comments of one material. The material is specified by {id}.
 
 **URL** : `/api/material/{id}/get-comment`
 

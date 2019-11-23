@@ -1,7 +1,6 @@
-# Create User's Account
+# Comment on one material
 
-Create an Account for the authenticated User if an Account for that User does
-not already exist. Each User can only have one Account.
+Publish comment on one material. The material is specified by {id}.
 
 **URL** : `/api/material/{id}/comment`
 
