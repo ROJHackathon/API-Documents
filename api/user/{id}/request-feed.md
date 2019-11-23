@@ -22,54 +22,59 @@ Request feed for one user. The user is specified by {id}
 ```json
 [
     {
-        "id": null,
-        "title": "French I",
+        "id": 1,
+        "title": "Material0",
         "description": "an intro to French",
         "language": "French",
         "provider": "ROJFake",
         "url": "www.fake.com",
         "isFlashCard": "false",
+        "coverUrl": "https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg",
         "like": 179
     },
     {
-        "id": null,
-        "title": "French II",
+        "id": 1,
+        "title": "Material1",
         "description": "an intro to French",
         "language": "French",
         "provider": "ROJFake",
         "url": "www.fake.com",
         "isFlashCard": "false",
-        "like": 86
+        "coverUrl": "https://cdn.framework7.io/placeholder/nature-1000x600-5.jpg",
+        "like": 179
     },
     {
-        "id": null,
-        "title": "In a French Restaurant",
-        "description": "common used sentence in a French restaurant",
+        "id": 1,
+        "title": "Material2",
+        "description": "an intro to French",
         "language": "French",
         "provider": "ROJFake",
         "url": "www.fake.com",
         "isFlashCard": "false",
-        "like": 57
+        "coverUrl": "https://cdn.framework7.io/placeholder/nature-1000x600-4.jpg",
+        "like": 179
     },
     {
-        "id": null,
-        "title": "French Travel Advice",
-        "description": "advice for tourists",
+        "id": 1,
+        "title": "Material3",
+        "description": "an intro to French",
         "language": "French",
         "provider": "ROJFake",
         "url": "www.fake.com",
         "isFlashCard": "false",
-        "like": 659
+        "coverUrl": "https://cdn.framework7.io/placeholder/nature-1000x600-6.jpg",
+        "like": 179
     },
     {
-        "id": null,
-        "title": "French food",
-        "description": "flash-card of various french dished",
+        "id": 1,
+        "title": "Material4",
+        "description": "an intro to French",
         "language": "French",
         "provider": "ROJFake",
         "url": "www.fake.com",
-        "isFlashCard": "true",
-        "like": 45
+        "isFlashCard": "false",
+        "coverUrl": "https://cdn.framework7.io/placeholder/nature-1000x600-7.jpg",
+        "like": 179
     }
 ]
 ```

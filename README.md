@@ -20,3 +20,4 @@
 * [Like one material](api/material/{id}/like.md) : `POST /api/material/{id}/like`
 * [Get Number of likes of one material](api/material/{id}/get-like.md) : `GET /api/material/{id}/get-like`
 * [Get Comments of one material](api/material/{id}/get-comment.md) : `GET /api/material/{id}/get-comment`
+* [Get Material by id](api/material/{id}.md) : `GET /api/material/{id}`
