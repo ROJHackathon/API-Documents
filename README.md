@@ -5,7 +5,7 @@
 ### Account Related
 
 * [Login](api/login.md) : `POST /api/login`
-* [Log out](api/log-out.md) : `POST /api/log-out` (not yet)
+* [Log out](api/log-out.md) : `POST /api/log-out`
 * [Show login status](api/user/{id}/status.md) : `POST /api/user/{id}/status`
 * [Set user language](user/{id}/set-language.md) : `POST /api/user/{id}/set-language` (not yet)
 * [Set user preference](user/{id}/set-preference.md) : `POST /api/user/{id}/set-preference` (not yet)
