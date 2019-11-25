@@ -4,13 +4,14 @@
 
 ### Account Related
 
-* [Login](api/user/login.md) : `POST /api/user/login`
-* [Show login status](api/user/{id}/status.md) : `GET /api/user/{id}/status`
-* [Set user language](user/{id}/set-language.md) : `POST /api/user/{id}/set-language`
-* [Set user preference](user/{id}/set-preference.md) : `POST /api/user/{id}/set-preference`
-* [Set user email](user/{id}/set-email.md) : `POST /api/user/{id}/set-email`
-* [Sign up](user/make-user.md) : `POST /api/user/make-user`
-* [Get list of joined chatroom](api/user/{id}/get-chatroom.md) : `GET /api/user/{id}/get-chatroom`
+* [Login](api/login.md) : `POST /api/login`
+* [Log out](api/log-out.md) : `POST /api/log-out` (not yet)
+* [Show login status](api/user/{id}/status.md) : `POST /api/user/{id}/status`
+* [Set user language](user/{id}/set-language.md) : `POST /api/user/{id}/set-language` (not yet)
+* [Set user preference](user/{id}/set-preference.md) : `POST /api/user/{id}/set-preference` (not yet)
+* [Set user email](user/{id}/set-email.md) : `POST /api/user/{id}/set-email` (not yet)
+* [Sign up](api/sign-up.md) : `POST /api/sign-up`
+* [Get list of joined chatroom](api/user/{id}/get-chatroom.md) : `POST /api/user/{id}/get-chatroom` (not yet)
 
 ### Feed Related
 
@@ -24,17 +25,17 @@
 * [Get Comments of one material](api/material/{id}/get-comment.md) : `GET /api/material/{id}/get-comment`
 * [Get Material by id](api/material/{id}.md) : `GET /api/material/{id}`
 
-### Translate Related
+### Translate Related (not yet)
 
 * [Translate Sentence](api/translate/sentence.md) : `POST /api/translate/sentence`
 * [Translate Sentence(smart)](api/translate/sentence-smart.md): `POST /api/translate/sentence-smart`
 * [Dictionary](api/dictionary.md) : `POST /api/dictionary`
 
-### Chatroom Related
+### Chatroom Related (not yet)
 
 * [Get chatroom list](api/chatroom/get-list.md) : `GET /api/chatroom/get-list`
 * [Create chatroom](api/chatroom/create.md) : `POST /api/chatroom/create`
 * [Say something in chatroom](api/chatroom/{id}/say.md) : `POST /api/chatroom/{id}/say`
-* [Get list of users in chatroom](api/chatroom/{id}/get-user.md) : `GET /api/chatroom/{id}/get-user`
-* [Get active user in chatroom](api/chatroom/{id}/get-active-user.md) : `GET /api/chatroom/{id}/get-active-user`
-* [Get list of messages of one chatroom](api/chatrooom/{id}/get-messages) : `GET /api/chatroom/{id}/get-messages`
+* [Get list of users in chatroom](api/chatroom/{id}/get-user.md) : `POST /api/chatroom/{id}/get-user`
+* [Get active user in chatroom](api/chatroom/{id}/get-active-user.md) : `POST /api/chatroom/{id}/get-active-user`
+* [Get list of messages of one chatroom](api/chatrooom/{id}/get-messages) : `POST /api/chatroom/{id}/get-messages`
