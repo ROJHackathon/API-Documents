@@ -7,7 +7,7 @@
 * [Login](api/login.md) : `POST /api/login`
 * [Log out](api/log-out.md) : `POST /api/log-out`
 * [Show login status](api/user/{id}/status.md) : `POST /api/user/{id}/status`
-* [Set user language](user/{id}/set-language.md) : `POST /api/user/{id}/set-language` (not yet)
+* [Set user language](api/user/{id}/set-language.md) : `POST /api/user/{id}/set-language` (not yet)
 * [Set user preference](user/{id}/set-preference.md) : `POST /api/user/{id}/set-preference` (not yet)
 * [Set user email](user/{id}/set-email.md) : `POST /api/user/{id}/set-email` (not yet)
 * [Sign up](api/sign-up.md) : `POST /api/sign-up`
@@ -33,9 +33,11 @@
 
 ### Chatroom Related (not yet)
 
-* [Get chatroom list](api/chatroom/get-list.md) : `GET /api/chatroom/get-list`
-* [Create chatroom](api/chatroom/create.md) : `POST /api/chatroom/create`
+* [Get Official Chatroom List](api/official-chatroom-list.md) : `GET /api/official-chatroom-list`
+* [Get chatroom list](api/chatroom-list.md) : `GET /api/chatroom-list`
+* [Create chatroom](api/create-chatroom.md) : `POST /api/create-chatroom`
+* [Get specific Chatroom info](api/chatroom/{id}) : `GET /api/chatroom/{id}`
 * [Say something in chatroom](api/chatroom/{id}/say.md) : `POST /api/chatroom/{id}/say`
-* [Get list of users in chatroom](api/chatroom/{id}/get-user.md) : `POST /api/chatroom/{id}/get-user`
-* [Get active user in chatroom](api/chatroom/{id}/get-active-user.md) : `POST /api/chatroom/{id}/get-active-user`
-* [Get list of messages of one chatroom](api/chatrooom/{id}/get-messages) : `POST /api/chatroom/{id}/get-messages`
+* [Get list of users in chatroom](api/chatroom/{id}/get-user.md) : `GET /api/chatroom/{id}/get-user`
+* [Get active user in chatroom](api/chatroom/{id}/get-active-user.md) : `GET /api/chatroom/{id}/get-active-user`
+* [Get list of messages of one chatroom](api/chatrooom/{id}/get-messages) : `GET /api/chatroom/{id}/get-messages`

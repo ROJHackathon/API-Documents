@@ -10,12 +10,7 @@ Request feed for one user. The user is specified by {id}
 
 **Permissions required** : None
 
-**Data constraints** : 
-```json
-{
-    "page" : [Integer]
-}
-```
+**Data constraints** : ?page=[int]&token=[int]
 
 the page parameter is optional and the default value is 1
 
@@ -23,7 +18,7 @@ the page parameter is optional and the default value is 1
 
 ## Success Responses
 
-**Condition** : x5gon works
+**Condition** : token is valid
 
 **Code** : `200 OK`
 
