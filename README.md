@@ -8,15 +8,15 @@
 * [Log out](api/log-out.md) : `POST /api/log-out`
 * [Show login status](api/user/{id}/status.md) : `POST /api/user/{id}/status`
 * [Set user language](api/user/{id}/set-language.md) : `POST /api/user/{id}/set-language` (not yet)
-* [Set user preference](user/{id}/set-preference.md) : `POST /api/user/{id}/set-preference` (not yet)
+* [Set user preference](user/set-preference.md) : `POST /api/set-preference`
 * [Set user email](user/{id}/set-email.md) : `POST /api/user/{id}/set-email` (not yet)
 * [Sign up](api/sign-up.md) : `POST /api/sign-up`
 * [Get list of joined chatroom](api/user/{id}/get-chatroom.md) : `POST /api/user/{id}/get-chatroom` (not yet)
 
 ### Feed Related
 
-* [Request Feed for one user](api/user/{id}/request-feed.md) : `GET /api/user/{id}/request-feed`
-* [Get search history of one user](api/user/{id}/history.md) : `GET /api/user/{id}/history`
+* [Request Feed for one user](api/request-feed.md) : `GET /api/request-feed`
+* [Get search history of one user](api/history.md) : `GET /api/history`
 * [Search Top Word](api/top-word.md) : `GET /api/top-word`
 * [Search Material](api/search-material.md) : `GET /api/search-material`
 * [Comment on one material](api/material/{id}/comment.md) `POST /api/material/{id}/comment`

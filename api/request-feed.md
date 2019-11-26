@@ -14,8 +14,6 @@ Request feed for one user. The user is specified by {id}
 
 the page parameter is optional and the default value is 1
 
-
-
 ## Success Responses
 
 **Condition** : token is valid
@@ -52,10 +50,10 @@ the page parameter is optional and the default value is 1
 
 ## Error Responses
 
-**Condition** : If x5gon does not work
+**Condition** : The token is invalid
 
-**Code** : `400 Bad Request`
+**Code** : `401 Unauthorized`
 
 **Headers** : 
 
-**Content** : `x5gon error1`
+**Content** : `[]`
