@@ -2,7 +2,7 @@
 
 Request feed for one user. The user is specified by {id}
 
-**URL** : `/api/user/{id}/request-feed`
+**URL** : `/api/request-feed`
 
 **Method** : `GET`
 
