@@ -1,6 +1,7 @@
 # API-Documents
 
-**URL** : http://108.61.221.218:39802
+**URL** : https://ez-talk-api-provider.azurewebsites.net
+N.B. Remember to add /api-fake under test environment
 
 **database** : Wong1215
 
