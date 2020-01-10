@@ -6,12 +6,16 @@
 
 ## User Related
 
+* Get User By Token : `GET /api/{token}`
 * Login : `POST /api/login`
 * logout : `POST /api/logout`
 * register : `POST /api/register`
 * Get User Info : `GET /api/user/{id}`
 * Get History (fake) : `GET /api/user/{id}/history`
 * Get Online Users : `GET /api/get-online-users`
+* Set Preference : `POST /api/set-preference`
+* Set Email : `POST /api/set-email`
+* Set Language : `POST /api/set-language`
 
 ## Material Related
 
