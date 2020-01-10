@@ -16,6 +16,7 @@
 * Set Preference : `POST /api/set-preference`
 * Set Email : `POST /api/set-email`
 * Set Language : `POST /api/set-language`
+* Set Target Lanuguage : `POST /api/set-target-language`
 
 ## Material Related
 
