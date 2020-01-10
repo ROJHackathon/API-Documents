@@ -38,3 +38,4 @@
 
 * Search material : `POST /api/search-material`
 * Top Word (fake) : `GET /api/top-word`
+* Feed : `POST /api/feed`
