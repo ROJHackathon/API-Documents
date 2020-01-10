@@ -6,7 +6,7 @@
 
 ## User Related
 
-* Get User By Token : `GET /api/{token}`
+* Get User By Token : `GET /api/get-user/{token}`
 * Login : `POST /api/login`
 * logout : `POST /api/logout`
 * register : `POST /api/register`
@@ -23,9 +23,11 @@
 * Make Comment : `POST /api/material/{id}/comment`
 * Get Comments : `GET /api/material/{id}/get-comments`
 * Love : `POST /api/material/{id}/love`
+* Rate : `POST /api/material/{id}/rate`
 
 ## Chatroom Related
 
+* Get list of chatrooms : `GET /api/chatroom-list`
 * Create chatroom : `POST /api/create-chatroom`
 * Get Chatroom Info : `GET /api/chatroom/{id}`
 * Say something : `POST /api/chatroom/{id}/say`
